@@ -75,3 +75,17 @@ function messageValidating(){
     }
 
 }
+function changeTheme() {
+
+var element = document.body;
+element.classList.toggle("theme-mode");
+var form_containerId=document.getElementById("form_containerId");
+
+var contact_id=document.getElementById("contact_id");
+if (document.getElementById('switch-btn').checked) {
+    form_containerId.style.backgroundColor("#e9e9e9")
+    contact_id.style.backgroundColor("#f5f5f5");
+    
+}
+
+}

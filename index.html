@@ -20,9 +20,13 @@
                 <p id="length" class="invalid">Minimum <b>8 characters</b></p>
               </div>
         </div>
-        <div class="contact-us-container">
+        <div class="contact-us-container" id="contact_id">
 
-            <div class="form-container">
+            <div class="form-container" id="form_containerId">
+              <label class="switch">
+                <input id="switch-btn" onclick="changeTheme()" type="checkbox" checked>
+                <span class="slider round"></span>
+              </label>
                 <form method="#" action="#" name="form"
                 onsubmit="return validateForm()" method="post">
                     <h1>Sign in</h1>
